@@ -1,5 +1,4 @@
 import 'package:cleancity/data/model/User.dart';
-import 'package:cleancity/main.dart';
 import 'package:cleancity/viewmodel/ProfileViewModel.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

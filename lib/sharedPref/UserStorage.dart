@@ -18,7 +18,6 @@ class UserStorage {
     final sharedPref = await SharedPreferences.getInstance();
     final jsonString = sharedPref.getString(userKey);
     final logger = Logger();
-    logger.i(jsonString);
 
     if (jsonString == null) {
       return null;
